@@ -1,7 +1,7 @@
 @echo off
 REM = """
-CALL conda install --offline --channel file:///%cd%\conda_pkgs\ --file %cd%\conda_requirements.txt -y
-CALL pip install --no-index --find-links file:///%cd%\pip_pkgs\ --requirement %cd%\pip_requirements.txt
+CALL conda install --file %cd%\conda_requirements.txt -y
+CALL pip install --requirement %cd%\pip_requirements.txt
 CALL python -x "%~f0" %
 exit /b %errorlevel%
 """
