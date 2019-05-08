@@ -1,0 +1,17 @@
+git
+pandas
+jupyterlab
+ipywidgets
+qgrid
+python-docx
+ipyleaflet
+plotly
+appmode
+rise
+ipysheet
+openpyxl
+jupyterthemes
+ipyparallel
+gitpython
+ipysheet
+xlrd
