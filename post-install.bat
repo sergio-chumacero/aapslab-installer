@@ -1,6 +1,6 @@
 @echo off
 REM = """
-CALL conda install --file %cd%\conda_requirements.txt -y
+CALL conda install --channel conda-forge --file %cd%\conda_requirements.txt -y
 CALL pip install --requirement %cd%\pip_requirements.txt
 CALL python -x "%~f0" %
 exit /b %errorlevel%
